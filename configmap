@@ -1,0 +1,16 @@
+Name:         william-env
+Namespace:    default
+Labels:       <none>
+Annotations:  <none>
+
+Data
+====
+william-env.yaml:
+----
+DB_URL=https://demo:27017
+
+
+BinaryData
+====
+
+Events:  <none>
