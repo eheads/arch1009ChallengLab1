@@ -1,16 +1,11 @@
-Name:         william-env
-Namespace:    default
-Labels:       <none>
-Annotations:  <none>
-
-Data
-====
-william-env.yaml:
-----
-DB_URL=https://demo:27017
-
-
-BinaryData
-====
-
-Events:  <none>
+apiVersion: v1
+data:
+  william-env.yaml: |
+    DB_URL=https://demo:27017
+kind: ConfigMap
+metadata:
+  creationTimestamp: "2024-02-15T09:33:40Z"
+  name: william-env
+  namespace: default
+  resourceVersion: "3050"
+  uid: d0be157e-d318-4327-b006-6f0ea5422c22
